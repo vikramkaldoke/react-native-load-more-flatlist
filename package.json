@@ -1,6 +1,6 @@
 {
   "name": "react-native-load-more-flatlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native package to implement infinte scroll flatlist",
   "homepage": "https://github.com/vikramkaldoke/react-native-load-more-flatlist#readme",
   "main": "lib/index.js",
@@ -53,6 +53,16 @@
     "react": "*",
     "react-native": "*"
   },
+  "keywords": [
+    "react-native",
+    "load",
+    "more",
+    "flatlist",
+    "scroll",
+    "infinite",
+    "sort",
+    "list"
+  ],
   "jest": {
     "preset": "react-native",
     "moduleFileExtensions": [
@@ -64,4 +74,5 @@
       "node"
     ]
   }
+  
 }
