@@ -3,7 +3,8 @@
 A react-native-load-more-flatlist component is based on Flatlist component for React Native.
 This component will help you to achieve infinite scroll functionality of flatlist with the bottom loader component.
 
-![Load More FlatList demo](https://i.imgur.com/xHCylq1.gif)
+![loadmore](https://user-images.githubusercontent.com/49480790/222896319-2766710f-caf3-496b-9164-8d9daee5dba3.gif)
+
 
 ## Install
 
