@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import { SafeAreaView } from 'react-native'
-import LoadMoreFlatlistModule, {
+import React, { useState } from 'react';
+import { SafeAreaView } from 'react-native';
+import  {
   LoadMoreFlatlist,
-} from 'react-native-load-more-flatlist'
-import ListItem from './components/listItem/ListItem'
-import { data } from './data'
-import styles from './style'
+} from 'react-native-load-more-flatlist';
+import ListItem from './components/listItem/ListItem';
+import { data } from './data';
+import styles from './style';
 
 const App = () => {
   const [listData, setListData] = useState(data)
@@ -16,7 +16,7 @@ const App = () => {
     await setTimeout(() => {
       setListData([...listData, ...data])
       setIsLoading(false)
-    }, 2000)
+    }, 2000);
   }
 
   const renderFlatlistItem = ({ item, index }) => {

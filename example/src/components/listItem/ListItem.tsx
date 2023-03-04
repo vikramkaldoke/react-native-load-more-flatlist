@@ -1,6 +1,6 @@
-import React, { memo } from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
-import styles from './style'
+import React, { memo } from 'react';
+import { Text, TouchableOpacity, View } from 'react-native';
+import styles from './style';
 
 interface props {
   title?: string
@@ -22,4 +22,4 @@ const ListItem: React.FC<props> = (props) => {
   )
 }
 
-export default memo(ListItem)
+export default memo(ListItem);
